@@ -1,8 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/aula01/web/node_modules
-/aula02/server/node_modules
+/node_modules
 /.pnp
 .pnp.js
 !.github/thumbnail.png
