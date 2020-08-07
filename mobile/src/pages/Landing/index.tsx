@@ -18,7 +18,7 @@ function Landing() {
     }
 
     function handleNavigateToStudyPage() {
-        navigate('StudyTabs');
+        navigate('Study');
     }
 
     return (
