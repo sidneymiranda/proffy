@@ -6,10 +6,7 @@ import { Feather } from '@expo/vector-icons';
 import PageHeader from '../../components/PageHeader';
 import TeacherItem from '../../components/TeacherItem';
 
-
-
 import styles from './styles';
-
 
 
 function TeacherList() {
