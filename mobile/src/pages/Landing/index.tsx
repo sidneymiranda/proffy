@@ -23,8 +23,6 @@ function Landing() {
         })
     }, []);
 
-
-
     const { navigate } = useNavigation();
 
     function handleNavigateToGiveClassesPage() {
