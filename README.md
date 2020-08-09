@@ -1,4 +1,5 @@
-<div width="auto"><img src="https://cdn.loom.com/sessions/thumbnails/5f9085390da94034a37a454cb2f2ba94-with-play.gif" /></div>
+![Proffy (1)](https://user-images.githubusercontent.com/39252967/89723525-03e43800-d9ce-11ea-9004-4d5f57e5051e.gif)
+
 
 ## <div align="center"> A simple way to connect students and teachers! </div>
 <br/>
