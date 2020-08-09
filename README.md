@@ -7,6 +7,7 @@
 <div align="center">
 
 ![Badge](https://img.shields.io/github/license/sidneymiranda/project-proffy)
+![Badge](https://img.shields.io/github/release/sidneymiranda/project-proffy)
 
 </div>
 
