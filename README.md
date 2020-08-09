@@ -1,4 +1,4 @@
-<img width="auto" src="https://github.com/sidneymiranda/project-proffy/blob/master/.github/thumbnail.png">
+<div width="auto"><img src="https://cdn.loom.com/sessions/thumbnails/5f9085390da94034a37a454cb2f2ba94-with-play.gif" /></div>
 
 ## <div align="center"> A simple way to connect students and teachers! </div>
 <br/>
