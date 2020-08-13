@@ -1,0 +1,31 @@
+.body-success {
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    background-image: url(../../assets/images/success-background.svg); 
+}
+
+.body-success-content {
+   width: 100%;
+}
+
+.body-success-content h2 {
+    font: 700 3rem Archivo;
+    line-height: 4rem;
+    color: var(--color-title-in-primary);
+}
+
+.body-success-content  p {
+    font-family: Poppins;
+    line-height: 2rem;
+    color: var(--color-text-in-primary);
+}
+
+.body-success-content button {
+    display: flex;
+    align-items: center;
+}

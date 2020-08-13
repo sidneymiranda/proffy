@@ -1,0 +1,26 @@
+.logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+    background-image: url(../../assets/images/success-background.svg);
+    background-size: 65rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+} 
+
+.logo-container img {
+    width: 100%;
+}
+
+.logo-container h2 {
+    font: 300 2.8rem Poppins;
+    color: var(--color-text-in-primary);
+    
+}

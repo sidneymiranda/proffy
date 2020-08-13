@@ -1,0 +1,26 @@
+.header-form {
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-form .header-form-content strong {
+    font: 700 3rem Poppins;
+    color: #32264D;
+}
+
+.header-form .header-form-content p {
+    max-width: 25rem;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #6A6180;
+    margin-top: 1.4rem;
+    position: absolute;
+
+
+
+
+
+}

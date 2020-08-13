@@ -2,6 +2,7 @@
     font-size: 60%;
 
     --color-background: #F0F0F7;
+    --color-background-2: #E5E5E5;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
     --color-primary: #8257E5;
@@ -33,7 +34,7 @@
  }
 
  body {
-     background: var(--color-background);
+     background: var(--color-background-2);
  }
 
  #root {
