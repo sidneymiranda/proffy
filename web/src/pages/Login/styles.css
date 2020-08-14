@@ -65,13 +65,25 @@
 
 }
 
-.page-login-form button {
-    width: 100%;
+.page-login-form a.button-login {
+    /* width: 100%;
     height: 6rem;
     margin-top: 2rem;
     border: solid 1px var(--color-line-in-white);
     border-radius: 8px;
-    color: var(--color-text-complement);
+    color: var(--color-text-complement); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+    margin-top: 5rem;
+    color: var(--color-button-text); 
+    background: var(--color-secundary);
+    transition: background-color 0.2s;
+    text-decoration: none;
 }
 
 

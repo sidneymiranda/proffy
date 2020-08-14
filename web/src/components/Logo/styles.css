@@ -16,11 +16,11 @@
 } 
 
 .logo-container img {
-    width: 100%;
+    height: 10rem;
 }
 
 .logo-container h2 {
-    font: 300 2.8rem Poppins;
-    color: var(--color-text-in-primary);
-    
+    margin: 0 0 0 10%;
+    font: 10 2.3rem Poppins;
+    color: var(--color-text-in-primary);    
 }

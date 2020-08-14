@@ -2,11 +2,13 @@ import React from 'react';
 import Checkbox from '@material-ui/core/Checkbox';
 import Input from '../../components/Input';
 import Logo from '../../components/Logo';
+import { Link } from 'react-router-dom';
 
 import purpleHeart from '../../assets/images/icons/purple-heart.svg';
 
 
 import './styles.css';
+
 
 
 function Login() {    
@@ -44,7 +46,12 @@ function Login() {
 
                         </div>
 
-                        <button type="submit">Entrar</button>
+                        <Link
+                            to="/profile"
+                            className="button-login"
+                        >
+                            Entrar
+                        </Link>
                     </form>
                 </div>
 
