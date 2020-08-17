@@ -1,0 +1,74 @@
+.body-reset-sent {
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+}
+
+.body-background {
+    height: 80%;
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-primary);   
+    background-image: url(../../assets/images/success-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.body-reset-sent-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-reset-sent-content img {
+    width: 10rem;
+    margin-bottom: 3rem;
+
+}
+
+.body-reset-sent-content h2 {
+    font: 700 4rem Archivo;
+    line-height: 4rem;
+    color: var(--color-title-in-primary);
+    margin-bottom: 1.5rem;
+}
+
+
+.reset-sent-content-span p {
+    display: flex;
+    justify-content: center;
+    font: normal normal Poppins;
+    font-size: 1.2rem;
+    color: var(--color-text-in-primary);
+}
+
+.body-background > div {
+    display: flex;
+    justify-content: center;
+}
+
+.body-background a.reset-sent-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+    margin-top: 5rem;
+    color: var(--color-button-text); 
+    background: var(--color-secundary);
+    transition: background-color 0.2s;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.body-background a.reset-sent-login:hover {
+    background: var(--color-secundary-dark);
+}

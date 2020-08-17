@@ -5,18 +5,18 @@ import successIcon from '../../assets/images/icons/successIcon.svg';
 import './styles.css';
 
 
-function RegisterSuccess() {
+function ResetSent() {
     return (
-        <body className="body-success">
+        <body className="body-reset-sent">
             <div className="body-background">
-                <div className="body-success-content">                  
+                <div className="body-reset-sent-content">                  
                     <img src={successIcon} alt="Sucesso" />
                     
-                    <h2>Cadastro concluído</h2>
+                    <h2>Redefinição enviada</h2>
                     
-                    <div className="content-span">
-                        <p>Agora você faz parte da plataforma da Proffy.</p>
-                        <p>Tenha uma ótima experiência.</p>
+                    <div className="reset-sent-content-span">
+                        <p>Boa, agora é só checar o e-mail que foi enviado para você</p>
+                        <p>redefinir sua senha e aproveitar os estudos.</p>
                     </div>
                     
                 </div>
@@ -24,9 +24,9 @@ function RegisterSuccess() {
                 <div>
                     <Link 
                         to="/"
-                        className="todo-login"
+                        className="reset-sent-login"
                     >
-                        Fazer login
+                        Voltar ao login
                     </Link >
                 </div>
             </div>          
@@ -34,4 +34,4 @@ function RegisterSuccess() {
     )
 }
 
-export default RegisterSuccess;
+export default ResetSent;

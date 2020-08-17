@@ -17,11 +17,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background: var(--color-input-background);
 }
 
 .page-login-form {
-    margin-top: 9rem;
+    height: 100%;
+    align-items: flex-end;
+    display: flex;
 }
 
 .page-login-form fieldset {
@@ -57,21 +58,20 @@
     justify-content: space-between; 
 }
 
+.page-login-password  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-.page-login-checkbox span,
-.page-login-checkbox a {
+.page-login-password > span,
+.page-login-password a {
     color: var(--color-text-complement);
     text-decoration: none;
 
 }
 
 .page-login-form a.button-login {
-    /* width: 100%;
-    height: 6rem;
-    margin-top: 2rem;
-    border: solid 1px var(--color-line-in-white);
-    border-radius: 8px;
-    color: var(--color-text-complement); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@
     height: 6rem;
     border-radius: 0.8rem;
     font: 700 2.0rem Archivo;
-    margin-top: 5rem;
+    margin-top: 3rem;
     color: var(--color-button-text); 
     background: var(--color-secundary);
     transition: background-color 0.2s;

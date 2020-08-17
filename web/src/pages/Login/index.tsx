@@ -37,13 +37,14 @@ function Login() {
                             <div>                       
                                 <Checkbox
                                     color="primary"
-                                    inputProps={{ 'aria-label': 'secondary checkbox' }}                               
+                                    value="Lembrar-me"
+                                    inputProps={{ 'aria-label': 'Lembrar-me' }}                               
                                 />
-                                <span>Lembrar-me</span>
+                            </div>
+                            <div className="page-login-password">
+                                <span>Lembrar-me</span>                              
+                                <a href="#">Esqueci minha senha</a>
                             </div>    
-                                                          
-                            <a href="#">Esqueci minha senha</a>
-
                         </div>
 
                         <Link

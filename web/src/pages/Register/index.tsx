@@ -27,11 +27,11 @@ function Register() {
                         </fieldset>
                     </form>
 
-                    <button type="submit">Concluir register</button>
+                    <button type="submit">Concluir registro</button>
                 </div>               
-
             </div>
-                <Logo />
+
+            <Logo />
         </div>
     )
 }

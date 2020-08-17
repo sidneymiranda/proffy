@@ -15,7 +15,7 @@ const PageHeaderForm: React.FC<PageHeaderFormProps> = (props) => {
     return (
         <header className="header-form">
             
-            <Link to="/login">
+            <Link to="/">
                 <img src={backIcon} alt="Voltar" />
             </Link>
           

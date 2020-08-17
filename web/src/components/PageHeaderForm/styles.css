@@ -3,6 +3,7 @@
     height: 18rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
 .header-form .header-form-content strong {
