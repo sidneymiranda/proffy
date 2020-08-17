@@ -4,7 +4,8 @@
     "@expo-google-fonts/poppins": "^0.1.0",
     "expo": "^38.0.9",
     "expo-font": "~8.2.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "serialize-javascript": "^4.0.0"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
