@@ -53,7 +53,7 @@ higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer
 $ git clone https://github.com/sidneymiranda/project-proffy
 
 # Enter the directory
-$ cd project-proffy
+$ cd proffy
 
 # Run the command below
 $ yarn install
